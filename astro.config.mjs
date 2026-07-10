@@ -4,7 +4,7 @@ import sveltia from 'astro-loader-sveltia-cms';
 
 export default defineConfig({
   integrations: [
-    tailwind(),
+    
     sveltia({
       config: {
         backend: {
