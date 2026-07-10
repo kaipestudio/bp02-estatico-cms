@@ -1,5 +1,5 @@
 import { defineConfig } from 'astro/config';
-import tailwind from '@astrojs/tailwind';
+
 import sveltia from 'astro-loader-sveltia-cms';
 
 export default defineConfig({
