@@ -1,0 +1,6 @@
+﻿New-Item -ItemType Directory -Force -Path "src/styles"
+@'
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+'@ | Out-File -FilePath "src/styles/global.css" -Encoding utf8
